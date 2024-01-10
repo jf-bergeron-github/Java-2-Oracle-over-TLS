@@ -15,7 +15,7 @@
 5. Compile Source
 
    mkdir lib
-   tar xvf ojdbc8-full.tar.gz ./lib
+   tar xvf ojdbc8-full.tar.gz -C ./lib
 
    javac -cp "./lib/*.jar" ./OracleConnection.java
    java cfm OracleConnection.jar manifest.mf OracleConnection.class
